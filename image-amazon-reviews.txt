@@ -1,0 +1,28 @@
+General Notes:
+- Might want to add an extra line at the beginning of each code snippet, so if readers hover over the snippets the first line would not be covered.
+
+
+Image and Video Processing:
+
+- Line 7: "Rbg" should be "RBG".
+- Line 25: "OpenCv" should be "OpenCV"
+- Line 25: "Blue, green, red" should be "Blue, Green, Red" or "blue, green, red", to be consistent.
+- Line 41: Should handle the case where readers cannot import cv2, maybe be having a link to a OpenCV installation tutorial.
+- Line 50: "OpenCv" should be "OpenCV"
+- Line 64: Might want to add more info on cv2.waitKey(), especially with positive parameters.
+- Line 95: "conver" should be "convert"
+- Line 101: "OpenCv" should be "OpenCV"
+- Line 137 and 139: Links are not being formatted in the book.
+- Line 150: "conver" should be "convert"
+- Line 316: Might want to explain a little bit about `flags` parameter, or get rid of it, as the actual code does not have `flags` inside the function.
+- Line 329: print statement is in Python 2 format.
+- Line 388 - 391: Discrepancy in length of sys.argv and its index in the `else` block, the actual code says 3 and 2.
+- Line 393, 402, 431, and 438: Awkward spacing (in the actual online book, not the txt file).
+- Line 486 - 489: Discrepancy in length of sys.argv and its index in the `else` block, the actual code says 2 and 1.
+- Redundant variable `gray` in motion_detect.py in the actual code.
+
+
+Machine Learning - Amazon:
+
+- Line 197, 198: Might want to fix indention in the `if` block in the online book, the txt file is correct though.
+- Line 388, 403: Variable `running_total` is not used after being assigned to 0.
