@@ -1,0 +1,6 @@
+The line numbers refer to the line numbers in the txt file in the PythonForEngineersTheBook repo.
+
+- Line 21: The link is treated as a relative link on pythonforengineers.com so it's not working.
+- Line 257: Image not found.
+- Equivalent of these lines on the online book: awkward empty lines
+Line 81. 91, 99, 120, 129, 144, 155, 161, 185, 241, 317, 329, 405, 417, 426.
