@@ -1,0 +1,39 @@
+# 1. 
+
+Download and install the latest Anaconda distribution from  https://www.continuum.io/downloads#macos
+
+# 2.
+Create a new Python environment. Make sure you choose python 3.5 as your python version for the virtual environment:
+
+```
+conda create -n myenv python=3.5
+```
+
+# 3.
+Activate the new environment using:
+
+```
+source activate myenv
+```
+
+# 4.
+OpenCV depends on NumPy, which can be installed with:
+
+```
+conda install numpy
+```
+
+# 5.
+Now we install OpenCV using [Conda-forge](http://anaconda.org/conda-forge/opencv). OpenCV by [Menpo](http://anaconda.org/menpo/opencv3) is also available, but when I tried it, I got an install error with the 64-bit version. To use Conda-forge:
+
+```
+conda install -c conda-forge opencv=3.2.0
+```
+
+# 6.
+Test OpenCV with the code below. It should print out 3.2.0 - the installed version of OpenCV
+
+```
+import cv2
+print(cv2.__version__)
+```
